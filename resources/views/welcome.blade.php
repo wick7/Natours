@@ -167,7 +167,7 @@
                           <div class="card__price-only">Only</div>
                           <div class="card__price-value">$297</div>
                       </div>
-                      <a class="btn btn--white" href="#">Book Now!</a>
+                      <a class="btn btn--white" href="#popup">Book Now!</a>
                     </div>
                   </div>
                 </div>
@@ -197,7 +197,7 @@
                           <div class="card__price-only">Only</div>
                           <div class="card__price-value">$497</div>
                       </div>
-                      <a class="btn btn--white" href="#">Book Now!</a>
+                      <a class="btn btn--white" href="#popup">Book Now!</a>
                     </div>
                   </div>
                 </div>
@@ -227,7 +227,7 @@
                           <div class="card__price-only">Only</div>
                           <div class="card__price-value">$897</div>
                       </div>
-                      <a class="btn btn--white" href="#">Book Now!</a>
+                      <a class="btn btn--white" href="#popup">Book Now!</a>
                     </div>
                   </div>
                 </div>
@@ -337,12 +337,11 @@
 
       <footer class="footer">
         <div class="footer__logo-box">
-          <img src="img/logo-green-2x.png" alt="Full logo" class="foter__logo">
+          <img src="images/logo-green-2x.png" alt="Full logo" class="footer__logo">
         </div>
         <div class="row">
           <div class="col-1-of-2">
             <div class="footer__navigation">
-              <div class="footer_list">
                 <ul class="footer__list">
                   <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
                   <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
@@ -350,8 +349,8 @@
                   <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
                   <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
                 </ul>
-              </div>
             </div>
+          </div>
             <div class="col-1-of-2">
               <p class="footer__copyright">
                 Built by <a href="#" class="footer__link">Jonas Schmedtmann</a> 
@@ -362,19 +361,19 @@
                 Jonas Schmedtmann, is of course highly appreciated!
               </p>
             </div>
-          </div>
         </div>
       </footer>
 
       <!--Modal -->
 
-      <div class="popup">
+      <div class="popup" id="popup">
         <div class="popup__content">
             <div class="popup__left">
               <img src="images/nat-8.jpg" alt="Tour photo" class="popup__img">
               <img src="images/nat-9.jpg" alt="Tour photo" class="popup__img">
             </div>
             <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
               <h2 class="heading-secondary u-margin-bottom-small">Start Booking now</h2>
               <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
               <p class="popup__text">
