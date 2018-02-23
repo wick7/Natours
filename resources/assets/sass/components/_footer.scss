@@ -3,6 +3,10 @@
     background-color: $color-grey-dark3;
     padding: 10rem 0;
     font-size: 1.4rem;
+
+    @include respond(tab-port) {
+        padding: 8rem 0;
+    }
     
     &__logo-box {
         text-align: center;
@@ -18,6 +22,11 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond(tab-port) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__list {
@@ -30,6 +39,8 @@
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
+
+       
     }
 
     &__link {
@@ -58,5 +69,10 @@
         width: 80%;
         float: right;
         display: inline-block;
+
+        @include respond(tab-port) {
+            width: 100%;
+            text-align: center;
+        }
     }
 }

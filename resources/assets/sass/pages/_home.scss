@@ -2,6 +2,10 @@
     background-color: $color-grey-light-1;
     padding: 25rem 10rem;
     margin-top: -20vh;
+
+    @include respond(tab-port) {
+        padding: 18rem 0rem 40rem 0rem;
+    }
 }
 
 .section-features {
@@ -24,13 +28,17 @@
 
 .section-tours {
     background-color: $color-grey-light-1;
-    padding: 25rem 0rem 50rem 0;
+    padding: 25rem 0rem 15rem 0;
     margin-top: -10rem;
 }
 
 .section-stories {
     position: relative;
     padding: 15rem 0;
+
+    @include respond(tab-port) {
+        padding: 10rem 0 5rem 0;
+    }
 }
 
 .section-book {

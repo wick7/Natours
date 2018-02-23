@@ -12,20 +12,44 @@
         transition: all .2s;
         outline-offset: 2rem;
 
+        @include respond(tab-port) {
+            float: left;
+            position: relative;
+            width: 33.3333333%;
+            box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+            
+        }
+
         &--p1 {
             left: 0;
             top: -2rem;
             transform: rotate(-5deg);
+
+            @include respond(tab-port) {
+                left: 0;
+            }
         }
         &--p2 {
             right: 0;
             top: 2rem;
             transform: rotate(7deg);
+
+            @include respond(tab-port) {
+                left: 0;
+                top: -4rem;
+                transform: rotate(0);
+                
+            }
         }
         &--p3 {
             left: 10rem;
             top: 10rem;
             transform: rotate(5deg);
+
+            @include respond(tab-port) {
+                left: 0;
+                top: -2rem;
+            }
         }
 
         &:hover {
